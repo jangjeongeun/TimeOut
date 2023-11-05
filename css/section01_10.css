@@ -1,0 +1,289 @@
+/* 공통css */
+.MENU {
+  /* font-size: 1.3542vw; */
+  font-size: 28px;
+  font-weight: 500;
+  position: absolute;
+  left: 10.4167vw;
+  color: #50EFAE;
+  /* color: #FF43DC; */
+  /* font-family: 'SF_HailSnow'; */
+  font-family: 'Pretendard';
+}
+.headline {
+  /* font-size: 2.1875vw; */
+  font-size: 42px;
+  font-weight: 600;
+  position: absolute;
+  left: 10.4167vw;
+  line-height: 131%;
+  color: #f4f4f4;
+}
+/* 노란색스판 */
+.YellowColor{
+  color: #e7d141;
+  font-family: 'Pretendard';
+}
+.mint {
+  color: #50EFAE;
+  font-family: 'Pretendard';
+}
+.explanation {
+  /* font-size: 1.0417vw; */
+  font-size: 22px;
+  font-weight: 500;
+  position: absolute;
+  left: 10.4167vw;
+  line-height: 169.3%;
+  letter-spacing: -0.0260vw;
+  color: #CECECE;
+  /* font-family: 'SCDream5'; */
+}
+.sub {
+  font-weight: 700;
+  font-size: 1.6667vw;
+}
+
+
+
+
+/* 섹션01 인트로 */
+.section1 {
+  height: 1080px;
+  background-size: 100%;
+  /* background-size: cover; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #15004F;
+  background-position: center;
+  /* overflow-x: hidden; */
+  position: relative;
+  padding-top: 70px;
+}
+.intro {
+  width: 100%;
+}
+
+
+
+/* 섹션2 백그라운드*/
+.section2 {
+  height: 1080px;
+  position: relative;
+}
+.menu01 {
+  top: 180px;
+}
+.head01 {
+  top: 320px;
+  text-align: center;
+  letter-spacing: 2%;
+}
+.EX01 {
+  top: 440px;
+}
+.BackgroundGraph{
+  position: absolute;
+  left: 198px;
+  top: 268px;
+}
+
+
+
+/* 섹션3 오버뷰 */
+.section3 {
+  height: 549px;
+  /* background-image: url("../images/overviewbg.png"); */
+  background-image: url(../images/section2Bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  /* filter: brightness(80%); */
+  position: relative;
+}
+.menu02 {
+  color: white;
+  top: 147px;
+  color: #FEDD00;
+}
+/* .head02 {
+  color: white;
+  position: absolute;
+  top: 25vh;
+  line-height: 113.8%;
+} */
+.EX02 {
+  color: rgb(197, 197, 197);
+  position: absolute;
+  top: 274px;
+  font-weight: 300;
+}
+
+
+/* 섹션4 미션 */
+.section4 {
+  height: 120vh;
+  position: relative;
+  overflow: hidden;
+}
+.menu03 {
+  position: absolute;
+  top: 15vh;
+}
+.head03 {
+  position: absolute;
+  top: 28vh;
+  left: 703px;
+}
+.EX03 {
+  position: absolute;
+  top: 41vh;
+  text-align: center;
+  left: 645px;
+}
+.circle{
+  position: absolute;
+  top: 59vh;
+  left: 14.5vw;
+}
+
+
+/* 섹션5 콘텐츠 */
+.section5 {
+  /* height: 110vh; */
+  height: 657.45px;
+  /* background-color: #F8F8F8; */
+  background-image: url(../images/ContentBG.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.menu04 {
+  position: absolute;
+  top: 102px;
+}
+.head04 {
+  position: absolute;
+  /* top: 23.7037vh; */
+  top: 210px;
+  /* left: 36.5104vw; */
+}
+.EX04 {
+  position: absolute;
+  top: 335px;
+}
+
+
+/* 섹션7 디자인 콘텐츠 */
+.section7 {
+  height: 1003px;
+  background-image: url(../images/DesighConceptBG.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.menu06 {
+  position: absolute;
+  /* top: 8vh; */
+  top: 231px;
+  color: #FF29D2;
+}
+span {
+  font-family: sans-serif;
+}
+.head05 {
+  position: absolute;
+  top: 353px;
+  /* top: 18vh; */
+  /* left: 27vw; */
+  /* font-weight: 800; */
+  /* color: #010101; */
+}
+.head05 > span {
+  color: #010101;
+}
+.EX05 {
+  position: absolute;
+  top: 460px;
+  /* left: 29.1667vw; */
+  /* color: #747474; */
+}
+
+
+
+/* 섹션8 디자인 무드보드 & 컬러 */
+.section8 {
+  height: 1002px;
+  position: relative;
+  overflow: hidden;
+}
+.head06{
+  position: absolute;
+  left: 742px;
+  top: 101px;
+  /* text-align: center; */
+}
+.Ex06{
+  position: absolute;
+  left: 670px;
+  top: 239px;
+  text-align: center;
+}
+.Color{
+  position: absolute;
+  top: 452px;
+  left: 271px;
+}
+
+
+
+
+/* 섹션9 디자인 엘리먼트 */
+.section9 {
+  height: 1467px;
+  /* background-color: white; */
+  position: relative;
+}
+.DesignElements{
+  position: absolute;
+  left: 323px;
+  top: 76px;
+}
+
+/* 섹션10 디자인 섹션 끝*/
+.section10 {
+  height: 834px;
+  background-image: url(../images/DesignEndBG.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  position: relative;
+}
+.menu09 {
+  position: relative;
+  top: 10vh;
+}
+.head07 {
+  font-size: 64px;
+  text-align: center;
+  line-height: 100px;
+  position: absolute;
+  font-weight: 600;
+  left: 484px;
+  top: 340px;
+}
+.Pink{
+  color: #FF29D2;
+  font-family: 'Pretendard';
+}
+/* #color {
+  position: absolute;
+  left: 10.4167vw;
+  top: 35vh;
+  width: 79.1667vw;
+}
+#color img {width: 100%;} */
